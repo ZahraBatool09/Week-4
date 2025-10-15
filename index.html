@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Zahra Batool — Week 4 CSS</title>
+
+  <!-- HTML → CSS connection -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body id="top">
+  <!-- =================== HEADER / NAV =================== -->
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">Zahra Batool</h1>
+      <nav class="main-nav">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- =================== HERO =================== -->
+  <section class="hero">
+    <div class="container">
+      <h2 class="tagline">Photography • Illustration • Graphic Design</h2>
+      <p class="intro">
+        I’m Zahra Batool — a Communication Design student at City Tech who loves combining
+        visuals, color, and storytelling through design and photography.
+        This page is a small step toward building my creative portfolio.
+      </p>
+      <a class="btn" href="#work">See my work</a>
+    </div>
+  </section>
+
+  <!-- =================== MAIN =================== -->
+  <main class="container">
+    <!-- ============= ABOUT ============= -->
+    <section id="about" class="panel">
+      <h3>About</h3>
+      <p>
+        I was born in Lahore, Pakistan, and now live in New York, where I’m pursuing my passion
+        for Communication Design at City Tech. I’m drawn to creative storytelling that blends
+        art, design, and culture. Whether I’m working on a digital illustration or capturing
+        an emotional photograph, I always aim to create something that feels personal, warm,
+        and visually meaningful.
+      </p>
+
+      <article class="card">
+        <h4 class="card__title">Bio</h4>
+        <p class="card__text">
+          I’m a multidisciplinary designer and photographer who enjoys exploring design in
+          many forms — from digital illustration and graphic layouts to branding and color
+          systems. My creative process often starts with emotion and atmosphere, and I love
+          bringing human stories to life through my work. Alongside design, I also enjoy web
+          design as a side passion, where I experiment with HTML and CSS to showcase my work online.
+        </p>
+        <span class="badge">Creative</span>
+      </article>
+
+      <aside class="card">
+        <h4 class="card__title">Quick Facts</h4>
+        <ul class="fancy-list">
+          <li>Programs: Adobe Photoshop, Illustrator, InDesign, After Effects</li>
+          <li>Learning: HTML & CSS for creative portfolio design</li>
+          <li>Interests: Photography, Illustration, Branding, Motion Design</li>
+          <li>Favorite part of design: Color, emotion, and storytelling</li>
+        </ul>
+      </aside>
+    </section>
+
+    <!-- ============= WORK ============= -->
+    <section id="work" class="panel">
+      <h3>Work</h3>
+      <div class="grid">
+        <article class="card work">
+          <h4 class="card__title">Photography</h4>
+          <p class="card__text">
+            My photography focuses on emotion, light, and real human stories.
+            I enjoy capturing expressive portraits and cultural visuals that highlight the
+            beauty in everyday life — inspired by my background and surroundings.
+          </p>
+          <a class="btn btn--ghost" href="#contact">Inquire</a>
+        </article>
+
+        <article class="card work">
+          <h4 class="card__title">Illustration</h4>
+          <p class="card__text">
+            I create illustrations that mix traditional and digital techniques, often inspired
+            by emotions, nature, and color harmony. My style combines soft textures with
+            expressive linework and a personal touch.
+          </p>
+          <a class="btn btn--ghost" href="#contact">Let’s collaborate</a>
+        </article>
+
+        <article class="card work">
+          <h4 class="card__title">Graphic Design</h4>
+          <p class="card__text">
+            I enjoy designing brand visuals, posters, and layouts that communicate stories
+            clearly and beautifully. My design work focuses on meaningful concepts, creative
+            typography, and bold use of color.
+          </p>
+          <a class="btn btn--ghost" href="#contact">View samples</a>
+        </article>
+      </div>
+
+      <p class="tiny-note">Design values I care about:</p>
+      <ul class="fancy-list">
+        <li>Visual storytelling</li>
+        <li>Emotional connection</li>
+        <li>Clean, thoughtful composition</li>
+      </ul>
+    </section>
+
+    <!-- ============= CONTACT (FORM) ============= -->
+    <section id="contact" class="panel">
+      <h3>Contact</h3>
+      <form class="contact-form" action="#" method="post">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" placeholder="Your name" required />
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="you@example.com" required />
+
+        <label for="msg">Message</label>
+        <textarea id="msg" name="message" rows="5" placeholder="Tell me about your project…"></textarea>
+
+        <button class="btn" type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- =================== FOOTER =================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Zahra Batool · <a href="#top">Back to top</a></p>
+    </div>
+  </footer>
+</body>
+</html>
